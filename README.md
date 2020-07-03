@@ -1,0 +1,2 @@
+# ginicoef
+The gini coefficient
