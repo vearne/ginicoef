@@ -11,6 +11,18 @@ go get github.com/vearne/ginicoef
 
 ###  Example
 ```
+package main
+
+import (
+	"fmt"
+	"github.com/vearne/ginicoef"
+)
+
+func main() {
+	incoms := []float64{1, 2, 3, 4}
+	data := ginicoef.GiniCoefficient(incoms)
+	fmt.Println(data)
+}
 
 ```
 
